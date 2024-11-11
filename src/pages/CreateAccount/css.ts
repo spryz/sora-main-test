@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         width: "100%",
         height: setWidth(42),
         backgroundColor: "#fff",
-        borderRadius: setWidth(8),
+        borderRadius: setWidth(6),
         borderStyle: "solid",
         borderColor: "#c7ccd0",
         borderWidth: 1,
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         backgroundColor: '#000',
-        borderRadius: setWidth(8)
+        borderRadius: setWidth(6)
     },
     btn_text: {
         fontSize: setText(12),
