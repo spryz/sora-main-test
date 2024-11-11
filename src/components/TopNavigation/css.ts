@@ -4,7 +4,7 @@ import {setHeight, setWidth,setText} from "../../utils";
 const styles = StyleSheet.create({
     container:{
         width:'100%',
-        height:setWidth(84),
+        height:setWidth(100),
         backgroundColor:'#ED1C24',
         position: 'relative'
     },
@@ -14,12 +14,12 @@ const styles = StyleSheet.create({
         resizeMode:"cover",
         position: 'absolute',
         left:setWidth(32),
-        top:setWidth(35),
+        top:setWidth(50),
     },
     logoText:{
         position: 'absolute',
         left:setWidth(105),
-        top:setWidth(43),
+        top:setWidth(59),
         fontSize: setText(15),
         letterSpacing: setWidth(7.5),
         lineHeight: setWidth(21),
@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
         height:setWidth(24),
         resizeMode:"cover",
         position: 'absolute',
-        right:setWidth(20),
-        top:setWidth(40),
+        right:setWidth(32),
+        top:setWidth(57),
     }
 })
 

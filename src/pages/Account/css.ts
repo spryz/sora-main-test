@@ -19,21 +19,22 @@ const styles = StyleSheet.create({
         letterSpacing: 0,
         lineHeight: setWidth(57),
         fontWeight: "500",
-        fontFamily: "Roboto-weight",
+        fontFamily: "Roboto-Medium",
         color: "#000",
         textAlign: "center",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         width: setWidth(296),
-        height: setWidth(57)
+        height: setWidth(57),
+        top: setWidth(13)
     },
     titleClose: {
         width: setWidth(24),
         height: setWidth(24),
         position: 'absolute',
         overflow: "hidden",
-        top: setWidth(16.5)
+        top: setWidth(30)
     },
     imageStyle: {
         width: '100%',
@@ -44,18 +45,19 @@ const styles = StyleSheet.create({
         width: setWidth(296),
         position: 'absolute',
         left: setWidth(32),
-        top: setWidth(73)
+        top: setWidth(80)
     },
     formItem: {
         width: '100%',
         height: setWidth(40),
-        borderRadius: setWidth(8),
+        borderRadius: setWidth(6),
         backgroundColor: "#fff",
         borderStyle: "solid",
         borderColor: "#a9a9a9",
         borderWidth: setWidth(1),
         position: "relative",
-        paddingLeft: setWidth(13),
+        paddingLeft: setWidth(10),
+        paddingTop: setWidth(2),
         marginBottom: setWidth(16),
     },
     formLabel: {
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
         height: setWidth(13),
         position: 'absolute',
         top: setWidth(14),
-        right:setWidth(30),
+        right: setWidth(30),
     },
     btn_box: {
         width: '100%',
