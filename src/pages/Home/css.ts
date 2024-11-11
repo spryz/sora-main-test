@@ -4,7 +4,7 @@ import {setHeight, setWidth,setText,setTop} from "../../utils";
 const styles = StyleSheet.create({
     logoBox: {
         position: 'absolute',
-        top: setTop(164),
+        top: setTop(400),
         left: setWidth(32)
     },
     logo: {
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         
     },
     btn_group_box:{
-        bottom: setTop(92),
+        bottom: setTop(300),
         position:'absolute',
     }
 })
