@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         position: 'absolute',
-        left: setWidth(10),
+        left: setWidth(16),
         
     },
     btn_group_box:{
