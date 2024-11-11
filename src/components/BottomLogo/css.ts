@@ -6,13 +6,13 @@ const styles = StyleSheet.create({
         width:setWidth(88),
         height:setWidth(58),
         resizeMode:"cover",
-        marginBottom:setWidth(20)
+        marginBottom:setWidth(10)
     },
     bottomTextBox:{
         width:'100%'
     },
     bottomText:{
-        fontSize: setText(20),
+        fontSize: setText(16),
         letterSpacing: setWidth(20),
         lineHeight: setText(28),
         fontWeight: "700",
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         textAlign: "center",
     },
     bottomLogoBox:{
-        bottom:setTop(38),
+        bottom:setTop(100),
         position: "absolute",
         width:'100%',
         alignItems:'center'

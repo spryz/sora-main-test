@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         textAlign: "center"
     },
     arrowLeftBox:{
-        top: setHeight(39),
+        top: setHeight(60),
         left: setWidth(32),
         width: setWidth(13),
         height: setHeight(20),
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         width: setWidth(296),
         height: setHeight(30),
         left: setWidth(32),
-        top: setHeight(34),
+        top: setHeight(54),
         position: "absolute",
     },
 })

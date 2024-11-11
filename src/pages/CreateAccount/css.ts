@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         position: "absolute",
         width: setWidth(296),
         left: setWidth(32),
-        top: setHeight(97)
+        top: setHeight(110)
     },
     input: {
         width: "100%",
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         color: '#7b809a',
         fontSize: setText(14),
         paddingLeft: setWidth(16),
-        marginBottom:setWidth(18)
+        marginBottom: setWidth(18)
     },
     addressInput: {
         // top: setHeight(60)
@@ -44,10 +44,9 @@ const styles = StyleSheet.create({
         // top: setHeight(330),
     },
     tipText: {
-
-        fontSize: setText(12),
+        fontSize: setText(11),
         lineHeight: setWidth(14),
-        fontFamily: "Roboto-normal",
+        fontFamily: "Roboto-Italic",
         color: '#fff',
         textAlign: "left",
     },
@@ -74,7 +73,7 @@ const styles = StyleSheet.create({
         top: 0,
         height:'100%',
         lineHeight:setWidth(18),
-        left: setWidth(26),
+        left: setWidth(20),
         color: '#fff',
         fontSize: setText(14),
         fontFamily: "Roboto-normal",

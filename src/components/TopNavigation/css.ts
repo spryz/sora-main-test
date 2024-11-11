@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         width:'100%',
         height:setWidth(84),
         backgroundColor:'#ED1C24',
-        position: 'relative',
+        position: 'relative'
     },
     logo:{
         width:setWidth(56),
